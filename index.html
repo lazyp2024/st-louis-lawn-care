@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Louis Lawn Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F8F8F8;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #228B22;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #FFD700;
+            text-align: center;
+            padding: 50px;
+        }
+        .btn {
+            background-color: #228B22;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery-grid img {
+            width: 45%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #8B5A2B;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #228B22;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #8B5A2B;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>St. Louis Lawn Care</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Your Trusted Lawn Care Experts in St. Louis</h2>
+        <p>Professional and affordable lawn maintenance services for a greener tomorrow.</p>
+        <a href="#contact" class="btn">Get a Free Quote</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated lawn care company serving St. Louis with top-quality lawn maintenance and landscaping services.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Lawn Mowing</li>
+            <li>Fertilization & Weed Control</li>
+            <li>Aeration & Seeding</li>
+            <li>Seasonal Cleanups</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Our Work</h2>
+        <div class="gallery-grid">
+            <img src="lawn1.jpg" alt="Lawn Service 1">
+            <img src="lawn2.jpg" alt="Lawn Service 2">
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <p>"The best lawn care service in St. Louis! Highly recommended." - John D.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 St. Louis Lawn Care. All rights reserved.</p>
+    </footer>
+</body>
+</html>
